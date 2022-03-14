@@ -1,0 +1,15 @@
+// https://leetcode.com/problems/customers-who-never-order
+
+# Write your MySQL query statement below
+
+# Select name as Customers
+# From  Customers C1 
+# Left join Orders O 
+# ON C1.id=O.customerId
+# Where O.customerId is NULL
+
+Select name as Customers
+From  Customers C1
+Where C1.id not in(
+    Select customerid from orders
+);

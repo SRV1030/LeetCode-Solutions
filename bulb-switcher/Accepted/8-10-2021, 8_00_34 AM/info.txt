@@ -1,0 +1,1 @@
+{"id":536044564,"lang":"c","time":"7 months","timestamp":1628561734,"status_display":"Accepted","runtime":"0 ms","url":"/submissions/detail/536044564/","is_pending":"Not Pending","title":"Bulb Switcher","memory":"5.6 MB","code":"\n\nint bulbSwitch(int n){\n        return sqrt(n);\n}","compare_result":"11111111111111111111111111111111111","title_slug":"bulb-switcher"}

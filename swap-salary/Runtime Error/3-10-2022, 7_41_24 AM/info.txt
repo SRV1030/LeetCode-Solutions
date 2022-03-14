@@ -1,0 +1,1 @@
+{"id":656892333,"lang":"mssql","time":"4 days","timestamp":1646877384,"status_display":"Runtime Error","runtime":"N/A","url":"/submissions/detail/656892333/","is_pending":"Not Pending","title":"Swap Salary","memory":"N/A","code":"/* Write your T-SQL query statement below */\nUPDATE salary SET sex = IF(sex='m','f','m');","compare_result":"00000000","title_slug":"swap-salary"}

@@ -1,0 +1,13 @@
+// https://leetcode.com/problems/second-highest-salary
+
+# Write your MySQL query statement below
+
+SELECT 
+    max(salary) AS  SecondHighestSalary FROM Employee  
+    WHERE salary < (SELECT max(salary) FROM Employee)
+
+# SELECT
+#     (SELECT DISTINCT Salary
+#         FROM  Employee
+#         ORDER BY Salary DESC
+#         LIMIT 1 OFFSET 1) AS SecondHighestSalary

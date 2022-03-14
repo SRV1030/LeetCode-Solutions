@@ -1,0 +1,10 @@
+// https://leetcode.com/problems/duplicate-emails
+
+# Write your MySQL query statement below
+Select email As Email from (
+    Select email , count(email) as c 
+    From Person 
+    group by email
+    ) as t1
+Where c>1;
+

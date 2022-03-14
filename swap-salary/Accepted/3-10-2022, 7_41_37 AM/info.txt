@@ -1,0 +1,1 @@
+{"id":656892429,"lang":"mysql","time":"4 days","timestamp":1646877397,"status_display":"Accepted","runtime":"332 ms","url":"/submissions/detail/656892429/","is_pending":"Not Pending","title":"Swap Salary","memory":"0B","code":"# Write your MySQL query statement below\nupdate salary set sex=If(sex='m','f','m');","compare_result":"11111111","title_slug":"swap-salary"}

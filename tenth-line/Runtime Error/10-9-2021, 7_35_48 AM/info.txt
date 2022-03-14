@@ -1,0 +1,1 @@
+{"id":568091395,"lang":"bash","time":"5 months","timestamp":1633744248,"status_display":"Runtime Error","runtime":"N/A","url":"/submissions/detail/568091395/","is_pending":"Not Pending","title":"Tenth Line","memory":"N/A","code":"# Read from the file file.txt and output the tenth line to stdout.\nsed 'NUMq;d' file.txt","compare_result":"0000000","title_slug":"tenth-line"}
