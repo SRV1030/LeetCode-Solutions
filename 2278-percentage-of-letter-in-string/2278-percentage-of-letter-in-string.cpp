@@ -1,8 +1,6 @@
 class Solution {
 public:
-    int percentageLetter(string s, char letter) {
-        int f=0;
-        for(auto&i:s)if(i==letter)f++;
-        return (f*100)/s.size();
+    int percentageLetter(string s, char letter) {        
+        return (count(begin(s),end(s),letter)*100)/s.size();
     }
 };
