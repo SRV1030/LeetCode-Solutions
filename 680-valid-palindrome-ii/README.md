@@ -3,22 +3,22 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre><strong>Input:</strong> s = "aba"
+<pre style="position: relative;"><strong>Input:</strong> s = "aba"
 <strong>Output:</strong> true
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre><strong>Input:</strong> s = "abca"
+<pre style="position: relative;"><strong>Input:</strong> s = "abca"
 <strong>Output:</strong> true
 <strong>Explanation:</strong> You could delete the character 'c'.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 3:</strong></p>
 
-<pre><strong>Input:</strong> s = "abc"
+<pre style="position: relative;"><strong>Input:</strong> s = "abc"
 <strong>Output:</strong> false
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
