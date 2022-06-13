@@ -5,24 +5,24 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre><strong>Input:</strong> s = "ab#c", t = "ad#c"
+<pre style="position: relative;"><strong>Input:</strong> s = "ab#c", t = "ad#c"
 <strong>Output:</strong> true
 <strong>Explanation:</strong> Both s and t become "ac".
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre><strong>Input:</strong> s = "ab##", t = "c#d#"
+<pre style="position: relative;"><strong>Input:</strong> s = "ab##", t = "c#d#"
 <strong>Output:</strong> true
 <strong>Explanation:</strong> Both s and t become "".
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 3:</strong></p>
 
-<pre><strong>Input:</strong> s = "a#c", t = "b"
+<pre style="position: relative;"><strong>Input:</strong> s = "a#c", t = "b"
 <strong>Output:</strong> false
 <strong>Explanation:</strong> s becomes "c" while t becomes "b".
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
