@@ -29,3 +29,4 @@ public:
         return v/tc;
     }
 };
+// https://www.youtube.com/watch?v=6iab51dJiM4
