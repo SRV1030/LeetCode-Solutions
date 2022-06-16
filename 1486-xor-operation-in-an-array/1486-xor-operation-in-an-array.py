@@ -22,3 +22,6 @@ class Solution:
                 return start ^ 2
             else: 
                 return start ^ 2 ^ last
+
+            
+# https://leetcode.com/problems/xor-operation-in-an-array/discuss/699141/Visual-Solution-Python-or-O(1)-Time-or-O(1)-Space
