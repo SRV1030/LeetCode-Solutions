@@ -1,7 +1,8 @@
 class UndergroundSystem {
 public:
-    unordered_map<string,pair<int,int>>mpr;
     unordered_map<int,pair<string,int>>mps;
+    unordered_map<string,pair<int,int>>mpr;
+        
     UndergroundSystem() {
         
     }
@@ -11,15 +12,15 @@ public:
     }
     
     void checkOut(int id, string stationName, int t) {
-        auto&[p,v]=mps[id];
-        string des=p+"-"+stationName;
-        mpr[des].first+=t-v;
-        mpr[des].second++;
+        auto&[p,t0]=mps[id];
+        string r=p+"-"+stationName;
+        mpr[r].first+=t-t0;
+        mpr[r].second++;
     }
     
     double getAverageTime(string startStation, string endStation) {
-        string des=startStation+"-"+endStation;
-        return mpr[des].first/(double)mpr[des].second;
+        string r=startStation+"-"+endStation;
+        return mpr[r].first/(double)mpr[r].second;
     }
 };
 
