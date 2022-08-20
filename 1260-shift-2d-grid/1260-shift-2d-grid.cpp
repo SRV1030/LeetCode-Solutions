@@ -1,14 +1,15 @@
 class Solution {
 public:
     vector<vector<int>> shiftGrid(vector<vector<int>>& g, int k) {
-        int m=g.size(),n=g[0].size(),d=m*n;
-        k%=d;
-        vector<vector<int>> ans(m,vector<int>(n));
-        for(int i=0;i<m;i++)
-            for(int j=0;j<n;j++){
-                int nj=(j+k)%n,ni=(i+(j+k)/n)%m;
+        int r=size(g),c=size(g[0]);
+        k=k%(r*c);
+        vector<vector<int>>ans(r,vector<int>(c));
+        for(int i=0;i<r;++i){
+            for(int j=0;j<c;++j){
+                int nj=(j+k)%c,ni=(i+(j+k)/c)%r;
                 ans[ni][nj]=g[i][j];
             }
+        }
         return ans;
     }
 };
