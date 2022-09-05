@@ -1,22 +1,23 @@
 class Solution {
 public:
     int n;
-    vector<int> parent;
-    int get_parent(int i){
-        if(i==parent[i]) return i;
-        return parent[i]=get_parent(parent[i]);
+    vector<int>p;
+    int get_p(int i){
+        if(p[i]==i) return i;
+        return p[i]=get_p(p[i]);
     }
-    void get_union(int i,int j){
-        parent[get_parent(i)]=get_parent(j);
+    void _union(int i,int j){
+        p[get_p(i)]=get_p(j);
     }
     int findCircleNum(vector<vector<int>>& isCon) {
-        n=isCon.size();
-        for(int i=0;i<n;parent.emplace_back(i++));
-        for(int i=0;i<n;i++)
-            for(int j=i+1;j<n;j++) if(isCon[i][j]) get_union(i,j);
+        n=size(isCon);
+        for(int i=0;i<n;p.emplace_back(i++));
+        for(int i=0;i<n;++i)
+            for(int j=i+1;j<n;++j)
+                if(isCon[i][j])_union(i,j);
         unordered_set<int>st;
-        for(auto&i:parent)st.insert(get_parent(i));
-        return st.size();
+        for(auto&i:p)st.insert(get_p(i));
+        return size(st);
     }
 };
 
