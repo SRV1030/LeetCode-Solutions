@@ -9,7 +9,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/10/move1.jpg" style="width: 600px; height: 406px;">
-<pre style="position: relative;"><strong>Input:</strong> n = 5, requests = [[0,1],[1,0],[0,1],[1,2],[2,0],[3,4]]
+<pre><strong>Input:</strong> n = 5, requests = [[0,1],[1,0],[0,1],[1,2],[2,0],[3,4]]
 <strong>Output:</strong> 5
 <strong>Explantion:</strong> Let's see the requests:
 From building 0 we have employees x and y and both want to move to building 1.
@@ -19,23 +19,23 @@ From building 3 we have employee c and they want to move to building 4.
 From building 4 we don't have any requests.
 We can achieve the requests of users x and b by swapping their places.
 We can achieve the requests of users y, a and z by swapping the places in the 3 buildings.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/10/move2.jpg" style="width: 450px; height: 327px;">
-<pre style="position: relative;"><strong>Input:</strong> n = 3, requests = [[0,0],[1,2],[2,1]]
+<pre><strong>Input:</strong> n = 3, requests = [[0,0],[1,2],[2,1]]
 <strong>Output:</strong> 3
 <strong>Explantion:</strong> Let's see the requests:
 From building 0 we have employee x and they want to stay in the same building 0.
 From building 1 we have employee y and they want to move to building 2.
 From building 2 we have employee z and they want to move to building 1.
-We can achieve all the requests. <div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+We can achieve all the requests. </pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> n = 4, requests = [[0,3],[3,1],[1,2],[2,0]]
+<pre><strong>Input:</strong> n = 4, requests = [[0,3],[3,1],[1,2],[2,0]]
 <strong>Output:</strong> 4
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
