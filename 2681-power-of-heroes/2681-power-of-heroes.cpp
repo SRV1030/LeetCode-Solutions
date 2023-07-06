@@ -11,4 +11,3 @@ public:
         return res;
     }
 };
-// https://leetcode.com/problems/power-of-heroes/discuss/3520506/C%2B%2B-oror-Sorting-oror-Easy-Intuition
