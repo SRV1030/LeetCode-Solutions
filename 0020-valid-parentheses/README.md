@@ -11,21 +11,21 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> s = "()"
+<pre><strong>Input:</strong> s = "()"
 <strong>Output:</strong> true
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> s = "()[]{}"
+<pre><strong>Input:</strong> s = "()[]{}"
 <strong>Output:</strong> true
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> s = "(]"
+<pre><strong>Input:</strong> s = "(]"
 <strong>Output:</strong> false
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
